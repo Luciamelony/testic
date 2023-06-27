@@ -1,0 +1,355 @@
+{
+  "id": "888e5345-7d99-40a3-82d1-ace959ac8fe0",
+  "version": "2.0",
+  "name": "Sobaki",
+  "url": "https://qahacking.guru/",
+  "tests": [{
+    "id": "480d7e3a-60bc-4754-967d-dad158bcd947",
+    "name": "Untitled",
+    "commands": [{
+      "id": "77b42686-e438-434f-8e13-2a6df05a7bce",
+      "comment": "",
+      "command": "open",
+      "target": "https://qahacking.guru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "817b833c-49fc-4b27-8784-bb1b4fc4f806",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-nav > li:nth-child(6) > a",
+      "targets": [
+        ["css=.uk-navbar-nav > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Проверь свой уровень')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://gradebuilder.tech/your-grade/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11415a4-2d56-49b1-b54c-fbca6ef6cba1",
+      "comment": "",
+      "command": "click",
+      "target": "id=question2_2",
+      "targets": [
+        ["id=question2_2", "id"],
+        ["css=#question2_2", "css:finder"],
+        ["xpath=//input[@id='question2_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question2-2 ']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb68a433-8845-46b4-89e4-32fbf0677f0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=question14_2",
+      "targets": [
+        ["id=question14_2", "id"],
+        ["css=#question14_2", "css:finder"],
+        ["xpath=//input[@id='question14_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question14-2 ']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e794571-651e-44c2-bc5d-2fe5a4fd466f",
+      "comment": "",
+      "command": "click",
+      "target": "id=question16_2",
+      "targets": [
+        ["id=question16_2", "id"],
+        ["css=#question16_2", "css:finder"],
+        ["xpath=//input[@id='question16_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question16-2 ']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa8fe99-4735-404b-9e61-e85a81c9f5f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=question21_2",
+      "targets": [
+        ["id=question21_2", "id"],
+        ["css=#question21_2", "css:finder"],
+        ["xpath=//input[@id='question21_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question21-2 ']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d2f6c6c-734b-4801-aff0-fb474b293799",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Далее",
+      "targets": [
+        ["linkText=Далее", "linkText"],
+        ["css=.mlw_custom_next", "css:finder"],
+        ["xpath=(//a[contains(text(),'Далее')])[2]", "xpath:link"],
+        ["xpath=//form[@id='quizForm1']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31aa5c7e-3894-4741-821f-e30de2478bef",
+      "comment": "",
+      "command": "click",
+      "target": "id=question23_2",
+      "targets": [
+        ["id=question23_2", "id"],
+        ["css=#question23_2", "css:finder"],
+        ["xpath=//input[@id='question23_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question23-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3466ab2-6eda-4e77-909e-8d98dc7d470a",
+      "comment": "",
+      "command": "click",
+      "target": "id=question24_2",
+      "targets": [
+        ["id=question24_2", "id"],
+        ["css=#question24_2", "css:finder"],
+        ["xpath=//input[@id='question24_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question24-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c080bf-195b-46d3-b327-64412eac42cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Далее",
+      "targets": [
+        ["linkText=Далее", "linkText"],
+        ["css=.mlw_custom_next", "css:finder"],
+        ["xpath=(//a[contains(text(),'Далее')])[2]", "xpath:link"],
+        ["xpath=//form[@id='quizForm1']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01810728-55e0-457b-8f3d-7c959e3881b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=question7_2",
+      "targets": [
+        ["id=question7_2", "id"],
+        ["css=#question7_2", "css:finder"],
+        ["xpath=//input[@id='question7_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question7-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7083aed-97d6-4fb7-993a-91f3ce9cc16b",
+      "comment": "",
+      "command": "click",
+      "target": "id=question8_1",
+      "targets": [
+        ["id=question8_1", "id"],
+        ["name=question8", "name"],
+        ["css=#question8_1", "css:finder"],
+        ["xpath=//input[@id='question8_1']", "xpath:attributes"],
+        ["xpath=//div[@id='question8-1 ']/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd3e94a1-0f9c-42c0-a31f-7465c693fbe8",
+      "comment": "",
+      "command": "click",
+      "target": "id=question9_1",
+      "targets": [
+        ["id=question9_1", "id"],
+        ["name=question9", "name"],
+        ["css=#question9_1", "css:finder"],
+        ["xpath=//input[@id='question9_1']", "xpath:attributes"],
+        ["xpath=//div[@id='question9-1 ']/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div[3]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "493a778a-555b-4e27-be34-88d60d7e7a1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=question10_2",
+      "targets": [
+        ["id=question10_2", "id"],
+        ["css=#question10_2", "css:finder"],
+        ["xpath=//input[@id='question10_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question10-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div[4]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61888fc0-5aa6-44b6-9fda-1bc30a5528ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=question11_1",
+      "targets": [
+        ["id=question11_1", "id"],
+        ["name=question11", "name"],
+        ["css=#question11_1", "css:finder"],
+        ["xpath=//input[@id='question11_1']", "xpath:attributes"],
+        ["xpath=//div[@id='question11-1 ']/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div[5]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b86437-0d24-48ad-a328-d13092febb9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=question12_1",
+      "targets": [
+        ["id=question12_1", "id"],
+        ["name=question12", "name"],
+        ["css=#question12_1", "css:finder"],
+        ["xpath=//input[@id='question12_1']", "xpath:attributes"],
+        ["xpath=//div[@id='question12-1 ']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bbd6fe9-a017-4406-bf3e-4091c00a8c82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Далее",
+      "targets": [
+        ["linkText=Далее", "linkText"],
+        ["css=.mlw_custom_next", "css:finder"],
+        ["xpath=(//a[contains(text(),'Далее')])[2]", "xpath:link"],
+        ["xpath=//form[@id='quizForm1']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76c1638b-ce56-44b9-9f01-ad7ba4bee72a",
+      "comment": "",
+      "command": "click",
+      "target": "id=question17_2",
+      "targets": [
+        ["id=question17_2", "id"],
+        ["css=#question17_2", "css:finder"],
+        ["xpath=//input[@id='question17_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question17-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a06c1b61-3976-490d-8852-fe33673cde04",
+      "comment": "",
+      "command": "click",
+      "target": "id=question18_2",
+      "targets": [
+        ["id=question18_2", "id"],
+        ["css=#question18_2", "css:finder"],
+        ["xpath=//input[@id='question18_2']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm1']/section[4]/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a60da239-6828-42c6-b9ce-6fa86737db64",
+      "comment": "",
+      "command": "click",
+      "target": "id=question19_1",
+      "targets": [
+        ["id=question19_1", "id"],
+        ["name=question19", "name"],
+        ["css=#question19_1", "css:finder"],
+        ["xpath=//input[@id='question19_1']", "xpath:attributes"],
+        ["xpath=//div[@id='question19-1 ']/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div[3]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc1e6cda-9f44-4ad5-a5b0-a9d06b3839b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=question20_1",
+      "targets": [
+        ["id=question20_1", "id"],
+        ["name=question20", "name"],
+        ["css=#question20_1", "css:finder"],
+        ["xpath=//input[@id='question20_1']", "xpath:attributes"],
+        ["xpath=//div[@id='question20-1 ']/input", "xpath:idRelative"],
+        ["xpath=//section[4]/div[4]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3f6df15-212a-4074-ae72-ea71498db7a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Далее",
+      "targets": [
+        ["linkText=Далее", "linkText"],
+        ["css=.mlw_custom_next", "css:finder"],
+        ["xpath=(//a[contains(text(),'Далее')])[2]", "xpath:link"],
+        ["xpath=//form[@id='quizForm1']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "632f9104-6692-4267-9b9d-88353b2bb620",
+      "comment": "",
+      "command": "click",
+      "target": "id=question22_2",
+      "targets": [
+        ["id=question22_2", "id"],
+        ["css=#question22_2", "css:finder"],
+        ["xpath=//input[@id='question22_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question22-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[5]/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b0b59c-fd83-4f26-a327-85bba9dc9293",
+      "comment": "",
+      "command": "click",
+      "target": "id=question25_2",
+      "targets": [
+        ["id=question25_2", "id"],
+        ["css=#question25_2", "css:finder"],
+        ["xpath=//input[@id='question25_2']", "xpath:attributes"],
+        ["xpath=//div[@id='question25-2 ']/input", "xpath:idRelative"],
+        ["xpath=//section[5]/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd2dcc60-cf04-4728-a81d-11767e4d6d2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qsm-submit-btn",
+      "targets": [
+        ["css=.qsm-submit-btn", "css:finder"],
+        ["xpath=//input[@value='Подтвердить']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm1']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c74ebf5-2700-446e-ab57-bce08ef78da9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0d889a76-4424-48d4-bac5-ca1aa2eb7d5e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["480d7e3a-60bc-4754-967d-dad158bcd947"]
+  }],
+  "urls": ["https://qahacking.guru/"],
+  "plugins": []
+}
